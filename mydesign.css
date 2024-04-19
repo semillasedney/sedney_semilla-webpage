@@ -1,0 +1,99 @@
+/*External CSS*/
+body {
+    background-image: url("../images/sed.avif");
+    background-attachment: fixed;  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: 2px solid #333; 
+    padding: 20px; 
+} 
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+img.rounded-image {
+    width: 150px;
+    height: 150px; 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+h2.displayed-name { 
+    font-weight: bold; 
+    font-family: Arial; 
+    text-decoration: underline; 
+    color: green; 
+    text-align: center;
+}
+h2.displayed-name a {
+  color: green; 
+}
+h2.class{
+    color: red;
+}
+h2.displayed-name:hover {
+    border: 2px solid green; 
+    background-color: yellowgreen; 
+    border-radius: 8px; 
+}
+
+hr{
+    height: 5px; 
+    background-color: black; 
+    border: none; 
+    margin: 20px 0; 
+}
+h3, h4, h5, h6{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+}
+h2.self-introduction {
+    text-indent: 40px;
+}
+p {
+        text-align: justify;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial;
+  
+}
+
+th, td {
+  border: 1px solid #000; 
+  padding: 8px;
+  text-align: center;
+  font-family: serif;
+
+}
+tr td:first-child {
+  font-weight: bold;
+}
+
+th {
+  background-color: green;
+  color: white;
+}
+h7 {
+    background-color: green;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+ul, ol {
+    text-align: left;
+    font-family: serif;
+}
